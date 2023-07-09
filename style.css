@@ -1,0 +1,113 @@
+*
+{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:not(i)
+{
+    font-family: "Poppins", sans-serif;
+}
+body
+{
+    background-color: #9cfdff;
+}
+.container
+{
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.header{
+    margin-bottom: 50px;
+  }
+  .header ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header ul li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+.searchandoption
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.searchandoption input
+{
+    padding: 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #9cfdff;
+    font-size: 16px;
+    color: #000000;
+}
+.searchandoption .content-display select
+{
+    padding: 15px 0;
+    width: 70%;
+    background-color: #9cfdff;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 5px;
+}
+.details
+{
+    position: relative;
+}
+span
+{
+    font-weight: bold;
+    font-size: 25PX;
+}
+.Definition, .example, .synoms, .antnoms
+{
+    margin-bottom: 17px;
+}
+.Definition p span
+{
+    font-size: 20px;
+}
+.check
+{
+    width: 20px;
+    height: 20px;
+}
+.check input
+{
+    width: 100%;
+    height: 100%;
+}
+.chechlist
+{
+    display: flex;
+    align-items: center;
+}
+::placeholder
+{
+    font-size: 18px;
+}
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+@media only screen and (max-widht:651px)
+{
+    .container
+    {
+        padding: 3% 5%;
+    }
+}
